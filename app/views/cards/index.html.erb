@@ -1,0 +1,13 @@
+
+<div class="container-produkte-cards">
+  <div class="space"></div>
+  <div class="cards">
+    <% @cards.each do |card| %>
+      <div class="card">
+        <img src="https://picsum.photos/150/100" alt="random picture">
+        <div><%= card.tittle %></div>
+        <div><%= card.description %></div>
+      </div>
+    <% end %>
+  </div>
+</div>
