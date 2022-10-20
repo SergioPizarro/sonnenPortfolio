@@ -4,7 +4,7 @@ class PagesController < ApplicationController
   end
 
   def produkte
-
+    
   end
 
   def sonnenCommunity
@@ -23,5 +23,5 @@ class PagesController < ApplicationController
 
   end
 
-  
+
 end
