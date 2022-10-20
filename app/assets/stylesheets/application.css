@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+body{
+  background-image: url(/assets/ny.jpg);
+  background-size: contain;
+  width: 100vw;
+  height: 100vw;
+}
+@import "home.css";
+@import "navbar.css";

@@ -1,0 +1,60 @@
+.nav{
+  position: fixed;
+  top: 30px;
+  width: 100vw;
+  height: 46px;
+}
+.container-nav {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+.container-links {
+  display: flex;
+
+
+}
+
+.container-icon {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sun-icon {
+  background-image: url(sun-icon.png);
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+}
+
+.item-navbar {
+  padding: 0 32px 0 0;
+  font-size: 1.5rem;
+  align-self: center;
+}
+
+.item-navbar > a {
+  text-decoration: none;
+  color: black;
+  transition-duration: 0.2s;
+}
+
+.item-navbar > a:hover {
+  color: #00b5dd;
+}
+
+.especial > a{
+  text-decoration: none;
+background-color: #0a1535;
+color: white;
+padding: 20px;
+border-radius: 5px;
+transition-duration: 0.2s;
+}
+
+.especial > a:hover{
+  background-color: #485068;
+  color:white
+}
