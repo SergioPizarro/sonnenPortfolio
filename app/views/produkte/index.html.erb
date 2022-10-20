@@ -1,1 +1,10 @@
-<div>Welcome to the produkte</div>
+
+
+<div class="container-produkte">
+  <% @produkte.each do |produkt| %>
+    <div class="produkte-item">
+      <h2><%= produkt.tittle%></h2>
+      <h5><%= produkt.description %></h5>
+    </div>
+  <%end %>
+</div>
